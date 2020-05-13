@@ -3,11 +3,11 @@
 
 ## Install stable branch
 
->git clone -b egm_tnp_CleanedCodeForUL_17March2020  https://github.com/lsoffi/egm_tnp_analysis
+>git clone -b s4b_tnp git@github.com:diogodebastos/egm_tnp_analysis.git
 
 > cd egm_tnp_analysis
 
-> source etc/scripts/setupUL.sh (need ROOT>6.10)
+> source etc/scripts/setupS4B.sh
 
 > make
 
@@ -26,6 +26,8 @@ The interface between the user and the fitter is solely done via the settings fi
 	- set the fitting bins
 	- set the different cuts to be used
 	- set the output directory
+
+Use settings_ele_S4B_18.py
 
 Help message:
 >    python tnpEGM_fitter.py --help 
