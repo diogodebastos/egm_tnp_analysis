@@ -79,9 +79,7 @@ if not samplesDef['tagSel'] is None: samplesDef['tagSel'].set_puTree('/eos/cms/s
 #############################################################
 biningDef = [
    { 'var' : 'el_sc_eta' , 'type': 'float', 'bins': [-2.5,-2.0,-1.566,-1.4442, -0.8, 0.0, 0.8, 1.4442, 1.566, 2.0, 2.5] },
-   { 'var' : 'el_pt' , 'type': 'float', 'bins': [5,10,15,20,35,50,100,200,500] },
-
-
+   { 'var' : 'el_pt' , 'type': 'float', 'bins': [5,10,15,20,35] },
 ]
 
 #############################################################
@@ -105,7 +103,7 @@ additionalCuts = {
 }
 
 #### or remove any additional cut (default)
-additionalCuts = None
+#additionalCuts = None
 
 #############################################################
 ########## fitting params to tune fit by hand if necessary
